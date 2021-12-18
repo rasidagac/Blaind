@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628667772948",
+    "project_id": "blaind-a6594",
+    "storage_bucket": "blaind-a6594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628667772948:android:2ed4a8476cdc1bebf5b701",
+        "android_client_info": {
+          "package_name": "com.app.rasitagac.btp.blaind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628667772948-rn8rvgca3ne8jqgtnj4f1b5g66m1ugo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyb12ILxi6bfg-lWxUDc7-KYsHm6mRghU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628667772948-rn8rvgca3ne8jqgtnj4f1b5g66m1ugo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

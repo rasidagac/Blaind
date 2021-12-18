@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.rasitagac.btp.blaind">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/tfe_od_app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.ObjectDetection">
+
+        <activity
+            android:name="com.app.rasitagac.btp.blaind.SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/SplashStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.app.rasitagac.btp.blaind.WelcomeActivity" />
+        <activity android:name="com.app.rasitagac.btp.blaind.OnDeviceActivity" />
+        <activity android:name="com.app.rasitagac.btp.blaind.CaptureActivity" />
+        <activity android:name="com.app.rasitagac.btp.blaind.YoloV3Activity" />
+
+        <activity
+            android:name="com.app.rasitagac.btp.blaind.DetectorActivity"
+            android:label="@string/tfe_od_app_name"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
